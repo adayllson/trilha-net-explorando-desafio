@@ -19,7 +19,6 @@ namespace DesafioProjetoHospedagem.Models
             // IMPLEMENTADO!
            
 
-
                 if (Suite.Capacidade >= hospedes.Count)
                 {
                     Hospedes = hospedes;
@@ -41,8 +40,7 @@ namespace DesafioProjetoHospedagem.Models
 
 
                 }
-            
-                
+           
             
         }
 
@@ -58,7 +56,7 @@ namespace DesafioProjetoHospedagem.Models
             return Hospedes.Count;
         }
 
-        public decimal CalcularValorDiaria(double descontopee = 10 )
+        public decimal CalcularValorDiaria(double descontopee = 10)
         {
             // TODO: Retorna o valor da diária
             // Cálculo: DiasReservados X Suite.ValorDiaria
